@@ -6,6 +6,7 @@ import { useCourseProgress } from "@/lib/use-course-state";
 import { useSRSProgress } from "@/lib/use-srs-state";
 import { useMistakesState } from "@/lib/use-mistakes-state";
 
+// Vercel auto-deploy test
 export default function Home() {
   const progress = useCourseProgress();
   const srs = useSRSProgress();
